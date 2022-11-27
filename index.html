@@ -24,7 +24,7 @@
   </script>
 </head>
 
-<body>
+<body class="">
   <header class="h-14">
     <!-- Navbar -->
     <nav class="
@@ -117,39 +117,6 @@
                 <svg aria-hidden="true"
                   class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                   fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z">
-                  </path>
-                </svg>
-                <span class="flex-1 ml-3 whitespace-nowrap">Lavora con noi</span>
-                <span
-                  class="inline-flex justify-center items-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300">Pro</span>
-              </a>
-            </li>
-            <li>
-              <a href="#"
-                class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
-                <svg aria-hidden="true"
-                  class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                  fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M8.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l2-2a1 1 0 00-1.414-1.414L11 7.586V3a1 1 0 10-2 0v4.586l-.293-.293z">
-                  </path>
-                  <path
-                    d="M3 5a2 2 0 012-2h1a1 1 0 010 2H5v7h2l1 2h4l1-2h2V5h-1a1 1 0 110-2h1a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V5z">
-                  </path>
-                </svg>
-                <span class="flex-1 ml-3 whitespace-nowrap">Notifiche</span>
-                <span
-                  class="inline-flex justify-center items-center p-3 ml-3 w-3 h-3 text-sm font-medium text-blue-600 bg-blue-200 rounded-full dark:bg-blue-900 dark:text-blue-200">3</span>
-              </a>
-            </li>
-            <li>
-              <a href="#"
-                class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
-                <svg aria-hidden="true"
-                  class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                  fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd">
                   </path>
                 </svg>
@@ -203,12 +170,12 @@
     </div>
 
   </header>
-  <main class="min-h-screen">
+  <main class="min-h-screen overflow-x-hidden">
 
     <!-- Title -->
     <section>
-      <div class="text-center bg-gray-50 text-gray-800 py-20 px-6">
-        <h1 class="text-5xl font-bold mt-0 mb-6">Stream Gym</h1>
+      <div class="flex justify-center text-center h-[20rem] overflow-hidden">
+        <img class="scale-[1.35]" src="res/index.jpeg"/>
       </div>
     </section>
 
@@ -221,7 +188,7 @@
         rel="stylesheet">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-      <div class="flex justify-center pt-8 mb-20">
+      <div class="flex justify-center pt-8 mb-20 bg-gray-50">
         <div class="">
           <div class="text-center font-semibold">
             <h1 class="text-5xl">
@@ -233,7 +200,7 @@
             </p>
           </div>
 
-          <div class="pt-24 flex flex-col lg:flex-row divide-y-8 justify-center items-center">
+          <div class="pt-14 flex flex-col lg:flex-row whitespace-nowrap divide-y-8 justify-center items-center">
             <!-- Gym Card -->
             <div class=" w-96 p-8 bg-gray-800 text-center rounded-3xl lg:pr-16 shadow-xl">
               <h1 class="text-white font-semibold text-2xl">Gym-Basic</h1>
@@ -297,7 +264,7 @@
                   <span class="material-icons align-middle">
                     done
                   </span>
-                  <span class="pl-2">
+                  <span class="pl-2 lg:text-xs text-sm">
                   Accesso a Palestra,Piscina e <span class="text-white">Benessere</span>
                   </span>
                 </p>
@@ -395,60 +362,56 @@
 
     <!-- Cosa offriamo -->
     <hr>
-    <section>
+    <div class="w-full">
       <div class="flex flex-col lg:flex-row mt-5">
-        <div>
-          <img class="lg:w-[200rem]"
+        <div class="mr-0">
+          <img class="lg:w-[250rem]"
             src="https://shop.fitonyou.it/wp-content/themes/basicstore/images/allenamento-da-casa-con-personal-trainer-fit-on-you-video.jpg"
             alt="1 Amico = 1 Mese Gratis*"/>
         </div>
-        <div class="lg:ml-10 lg:mr-5 mt-5 text-center">
+        <div class="flex flex-col justify-center mt-5 ml-10 mr-5 text-center min-h-[10rem]">
           <h2 class="font-bold text-3xl">Online Training </h2>
           <br>
-          <p>Se scegli il piano "Stream-Gym", grazie ad un efficientissimo software ed alla preparazione dei nostri istruttori, avrai la possibilità di interfacciarti 
+          <p class="mt-5">Se scegli il piano "Stream-Gym", grazie ad un efficientissimo software ed alla preparazione dei nostri istruttori, avrai la possibilità di interfacciarti 
             live, senza più doverti trovare fisicamente all’interno della palestra Stream-Gym. Questa opportunità ha reso realizzabile i sogni di tanti clienti che sono impossibilitati a frequentare il nostro studio.
             Con protocolli personalizzati, una sana alimentazione e la giusta determinazione potrai raggiungere qualsiasi 
             obiettivo tu voglia, <strong>ovunque tu sia</strong>.</p>
         </div>
       </div>
       <div class="flex flex-col lg:flex-row lg:justify-evenly mt-10 lg:mt-0 lg:bg-gray-300">
-        <div class="lg:ml-10 lg:mr-5 mt-5 text-center hidden lg:block">
-          <h2 class="font-bold text-3xl">Ancora piu building</h2>
+        <div class="hidden lg:flex flex-col justify-center mt-5 ml-10 mr-5 text-center min-h-[20rem]">
+          <h2 class="font-bold text-3xl">Personal Training</h2>
           <br>
-          <p>Che tu sia o no un esperto, i nostri coach ti aiuteranno a migliorare la tua condizione mentale e fisica e a raggiungere obiettivi che pensi siano impossibili da ottenere !<p></p>
+          <p class="pt-5">Che tu sia o no un esperto, i nostri coach ti aiuteranno a migliorare la tua condizione mentale e fisica e a raggiungere obiettivi che pensi siano impossibili da ottenere !<p></p>
         </div>
         <div class="mr-0">
-          <img class="w-[100rem] lg:w-[150rem]  lg:translate-x-[1.05rem]"
+          <img class="w-[85rem]  lg:translate-x-[1.05rem] lg:scale-[1.10] lg:rounded lg:shadow-md"
             src="https://www.unicusano.it/blog/wp-content/uploads/2022/09/12.1-come-diventare-personal-trainer.jpg"
             alt="1 Amico = 1 Mese Gratis*"/>
         </div>
-        <div class="lg:ml-10 lg:mr-5 mt-5 text-center lg:hidden">
+        <div class="flex lg:hidden flex-col justify-center mt-5 ml-10 mr-5 text-center min-h-[20rem]">
           <h2 class="font-bold text-3xl">Personal Training</h2>
           <br>
-          <p>Indipendentemente dal piano scelto, avrai la possibilità di essere seguito dai nostri <strong>Personal Trainer</strong>.
-            Programmi personalizzati al 100%, studiati su misura per te, ti aiuteranno a raggiungere il tuo obiettivo. 
-            I nostri Istruttori hanno ben chiaro il significato di sicurezza e precisione, per questo motivo durante le prime 3/4 sessioni sarete affiancati da uno di loro, 
-            il quale vi mostrerà il funzionamento dei diversi attrezzi, la corretta esecuzione dei diversi gesti motori e gli esercizi adatti per voi. Terminata questa prima frase 
-            sarà compito dell’istruttore preparare un programma fatto appositamente per voi.
-            Tutto questo sarà possibile sia online che fisicamente in palestra, grazie alla nostra <strong>App</strong>.
-              </p>
+          <p class="mt-5">
+            Che tu sia o no un esperto, i nostri coach ti aiuteranno a migliorare la tua condizione mentale e fisica e a raggiungere obiettivi che pensi siano impossibili da ottenere !
+          </p>
         </div>
       </div>
       <div class="flex flex-col lg:flex-row mt-5 lg:mt-0">
         <div>
-          <img class="lg:w-[200rem]"
+          <img class="lg:w-[282rem]"
             src="https://www.olevlight.com/wp-content/uploads/2020/10/piscina-1_schloss.jpg""
             alt="1 Amico = 1 Mese Gratis*"/>
         </div>
-        <div class="lg:ml-10 lg:mr-5 mt-5 text-center">
+        <div class="flex flex-col justify-center mt-5 ml-10 mr-5 text-center min-h-[20rem]">
           <h2 class="font-bold text-3xl">Piscina e Benessere</h2>
           <br>
-          <p>Cosa c'è di meglio di una <strong>Sauna</strong> e di un <strong>Bagno Turco</strong>  post workout? Entrambi sono perfetti per rilassarsi e diminuire lo stress. I vapori ed il calore contribuiscono a liberare
+          <p class="mt-5">Cosa c'è di meglio di una <strong>Sauna</strong> e di un <strong>Bagno Turco</strong>  post workout? Entrambi sono perfetti per rilassarsi e diminuire lo stress. I vapori ed il calore contribuiscono a liberare
              la mente con effetti benefici anche su ansia, stress e qualità del sonno. Stream-Gym ti offre benessere totale: ti puoi allenare e poi rilassare nel nostro spazio <strong>Wellness</strong>,
              iniziando da un massaggio o da un trattamento nella nostra <strong>SPA</strong>, passando alla sauna e bagno turco, fino ad arrivare ad immergerti nella vasca idromassaggio. Tutto questo compreso nel piano Stream-Gym.</p>
         </div>
       </div>
-    </section>
+    </div>
   </main>
 
   <footer class="mt-10 p-4 bg-white sm:p-6 dark:bg-gray-900">
